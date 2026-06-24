@@ -5,10 +5,9 @@ const palindromes = function (str) {
                         .split("")
                         .reverse()
                         .join("");
-    console.log(cleanedStr);
-    console.log(reversedStr);
+    
     return cleanedStr == reversedStr;
 };
-console.log(palindromes("racecar!"));
+
 // Do not edit below this line
 module.exports = palindromes;
